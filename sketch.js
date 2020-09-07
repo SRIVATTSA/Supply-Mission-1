@@ -41,6 +41,10 @@ function setup() {
 
 
 	Engine.run(engine);
+
+	side1Sprite =   createSprite(500,610,20,100)
+    bottomSprite =  createSprite(405,650,200,20)
+    side2Sprite =   createSprite(300,610,20,100)
   
 }
 
@@ -51,6 +55,10 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
+
+
+
+  
  
 }
 
